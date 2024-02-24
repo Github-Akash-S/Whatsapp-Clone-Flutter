@@ -2,7 +2,7 @@
     <application
         android:label="wclone"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/icon_wclone">
         <activity
             android:name=".MainActivity"
             android:exported="true"
