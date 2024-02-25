@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:wclone/common/theme/dark_theme.dart';
+import 'package:wclone/common/theme/light_theme.dart';
 import 'package:wclone/feature/welcome/pages/welcome_page.dart';
 
 void main() {
@@ -15,7 +17,9 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Wclone',
-        theme: ThemeData.dark(),
+        theme: lightTheme(),
+        darkTheme: darkTheme(),
+        themeMode: ThemeMode.system,
         home: const WelcomePage(),
       ),
     );
